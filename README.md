@@ -1,2 +1,2 @@
 # portfolio-2
-this is a portfolio webite for publication
+this is a portfolio website for publication
