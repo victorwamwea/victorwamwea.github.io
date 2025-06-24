@@ -51,7 +51,7 @@ nav {
 .link a {
     position: relative;
     padding-bottom: 0.75rem;
-    color: #333333;
+    color: #2A2A2A;
 }
 
 .link a::after {
@@ -61,7 +61,7 @@ nav {
     width: 0;
     bottom: 0;
     left: 0;
-    background-color: #007BFF;
+    background-color: #4A55FF;
     transition: all 0.3s ease;
 }
 
@@ -73,14 +73,14 @@ nav {
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #FFFFFF;
-    background-color: #007BFF;
+    background-color: #4A55FF;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #005BFF;
+    background-color: #3A45CC;
 }
 
 .container {
@@ -91,7 +91,7 @@ nav {
 
 .blur {
     position: absolute;
-    box-shadow: 0 0 1000px 50px #007BFF;
+    box-shadow: 0 0 1000px 50px #4A55FF;
     z-index: -100;
 }
 
@@ -106,13 +106,13 @@ header {
 
 header .content h4 {
     margin-bottom: 1rem;
-    color: #666666;
+    color: #5A5A5A;
     font-size: 1rem;
     font-weight: 600;
 }
 
 header .content h1 {
-    color: #333333;
+    color: #2A2A2A;
     margin-bottom: 1rem;
     font-size: 3rem;
     font-weight: 700;
@@ -137,7 +137,7 @@ header .content h1 div:last-child {
 
 @keyframes header-animate {
     0% {
-        border-right: 2px solid #333333;
+        border-right: 2px solid #2A2A2A;
         width: 0;
     }
     100% {
@@ -157,7 +157,7 @@ header .content h1 div:last-child {
 
 @keyframes typing-animate {
     0% {
-        border-right: 2px solid #333333;
+        border-right: 2px solid #2A2A2A;
     }
     100% {
         border-right: 2px solid transparent;
@@ -166,12 +166,12 @@ header .content h1 div:last-child {
 
 header .content h1 span {
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #333333;
+    -webkit-text-stroke: 1px #2A2A2A;
 }
 
 header .content p {
     margin-bottom: 2rem;
-    color: #666666;
+    color: #5A5A5A;
 }
 
 header .image {
@@ -187,7 +187,7 @@ header .image::before {
     font-size: 38rem;
     font-weight: 400;
     line-height: 20rem;
-    color: #007BFF;
+    color: #4A55FF;
     opacity: 0.2;
     z-index: -100;
 }
@@ -199,7 +199,7 @@ header .image img {
 
 section .header {
     margin-bottom: 1rem;
-    color: #333333;
+    color: #2A2A2A;
     text-align: center;
     font-size: 2.25rem;
     font-weight: 600;
@@ -222,12 +222,12 @@ section .header {
 
 .features .card:hover {
     background-color: #DDE2E5;
-    border-color: #333333;
+    border-color: #2A2A2A;
 }
 
 .features .card span {
     display: inline-block;
-    background-color: #005BFF;
+    background-color: #3A45CC;
     padding: 2px 9px;
     margin-bottom: 1rem;
     font-size: 1.75rem;
@@ -237,30 +237,30 @@ section .header {
 
 .features .card h4 {
     margin-bottom: 0.5rem;
-    color: #333333;
+    color: #2A2A2A;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
 .features .card p {
-    color: #666666;
+    color: #5A5A5A;
     margin-bottom: 1rem;
 }
 
 .features .card a {
-    color: #333333;
+    color: #2A2A2A;
     transition: all 0.3s ease;
 }
 
 .features .card a:hover {
-    color: #005BFF;
+    color: #3A45CC;
 }
 
 .sub-header {
     max-width: 600px;
     margin: auto;
     text-align: center;
-    color: #666666;
+    color: #5A5A5A;
 }
 
 .works {
@@ -285,7 +285,7 @@ section .header {
 
 .works .card:hover {
     background-color: #DDE2E5;
-    border-color: #333333;
+    border-color: #2A2A2A;
 }
 
 .card-image {
@@ -339,8 +339,9 @@ section .header {
 footer {
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    background-color: #E0E4E8;
 }
 
 footer .column .logo {
@@ -349,7 +350,7 @@ footer .column .logo {
 }
 
 footer .column p {
-    color: #666666;
+    color: #5A5A5A;
     margin-bottom: 2rem;
 }
 
@@ -360,8 +361,8 @@ footer .column .socials {
 }
 
 footer .column .socials a {
-    color: #666666;
-    border: 1px solid #666666;
+    color: #5A5A5A;
+    border: 1px solid #5A5A5A;
     padding: 5px 10px;
     font-size: 1.25rem;
     border-radius: 100%;
@@ -370,12 +371,12 @@ footer .column .socials a {
 
 footer .column .socials a:hover {
     color: #FFFFFF;
-    background-color: #007BFF;
-    border-color: #007BFF;
+    background-color: #4A55FF;
+    border-color: #4A55FF;
 }
 
 footer .column h4 {
-    color: #333333;
+    color: #2A2A2A;
     margin-bottom: 2rem;
     font-size: 1.2rem;
     font-weight: 500;
@@ -383,20 +384,20 @@ footer .column h4 {
 
 footer .column > a {
     display: block;
-    color: #666666;
+    color: #5A5A5A;
     margin-bottom: 1rem;
     transition: all 0.3s ease;
 }
 
 footer .column > a:hover {
-    color: #007BFF;
+    color: #4A55FF;
 }
 
 .copyright {
     max-width: 1200px;
     margin: auto;
     padding: 1rem;
-    color: #333333;
+    color: #2A2A2A;
     font-size: 0.8rem;
     text-align: center;
 }
@@ -419,6 +420,7 @@ footer .column > a:hover {
     }
     footer {
         grid-template-columns: 1fr;
+        justify-items: center;
     }
 }
 
@@ -434,6 +436,7 @@ footer .column > a:hover {
     }
     footer {
         grid-template-columns: 1fr;
+        justify-items: center;
     }
     header .content h1 {
         text-wrap: unset;
@@ -452,7 +455,7 @@ footer .column > a:hover {
 
 .form-input {
     background: #E8ECEF;
-    color: #333333;
+    color: #2A2A2A;
     padding: 15px;
     border-radius: 5px;
     width: 100%;
@@ -465,11 +468,11 @@ footer .column > a:hover {
 }
 
 .form-input:focus {
-    outline: 1px solid #333333;
+    outline: 1px solid #2A2A2A;
 }
 
 .form-label {
-    color: #333333;
+    color: #2A2A2A;
     font-size: 1.05rem;
 }
 
@@ -477,14 +480,14 @@ footer .column > a:hover {
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #FFFFFF;
-    background-color: #007BFF;
+    background-color: #4A55FF;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .form-submit:hover {
-    background-color: #005BFF;
+    background-color: #3A45CC;
 }
 
 .form-grid {
@@ -556,5 +559,5 @@ textarea.form-input {
 
 .heading {
     font-size: 32px;
-    color: #333333;
+    color: #2A2A2A;
 }
