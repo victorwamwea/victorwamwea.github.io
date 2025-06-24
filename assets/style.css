@@ -20,7 +20,7 @@ a {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #2A2F3A;
+    background-color: #F5F6F5;
 }
 
 html {
@@ -51,7 +51,7 @@ nav {
 .link a {
     position: relative;
     padding-bottom: 0.75rem;
-    color: #FFFFFF;
+    color: #333333;
 }
 
 .link a::after {
@@ -61,7 +61,7 @@ nav {
     width: 0;
     bottom: 0;
     left: 0;
-    background-color: #00D1FF;
+    background-color: #007BFF;
     transition: all 0.3s ease;
 }
 
@@ -73,14 +73,14 @@ nav {
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #FFFFFF;
-    background-color: #00D1FF;
+    background-color: #007BFF;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #00A3CC;
+    background-color: #005BFF;
 }
 
 .container {
@@ -91,7 +91,7 @@ nav {
 
 .blur {
     position: absolute;
-    box-shadow: 0 0 1000px 50px #00D1FF;
+    box-shadow: 0 0 1000px 50px #007BFF;
     z-index: -100;
 }
 
@@ -106,13 +106,13 @@ header {
 
 header .content h4 {
     margin-bottom: 1rem;
-    color: #E6E6E6;
+    color: #666666;
     font-size: 1rem;
     font-weight: 600;
 }
 
 header .content h1 {
-    color: #FFFFFF;
+    color: #333333;
     margin-bottom: 1rem;
     font-size: 3rem;
     font-weight: 700;
@@ -137,12 +137,12 @@ header .content h1 div:last-child {
 
 @keyframes header-animate {
     0% {
-        border-right: 2px solid #FFFFFF;
+        border-right: 2px solid #333333;
         width: 0;
     }
     100% {
         border-right: 0px solid transparent;
- width: 100%;
+        width: 100%;
     }
 }
 
@@ -157,7 +157,7 @@ header .content h1 div:last-child {
 
 @keyframes typing-animate {
     0% {
-        border-right: 2px solid #FFFFFF;
+        border-right: 2px solid #333333;
     }
     100% {
         border-right: 2px solid transparent;
@@ -166,12 +166,12 @@ header .content h1 div:last-child {
 
 header .content h1 span {
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #FFFFFF;
+    -webkit-text-stroke: 1px #333333;
 }
 
 header .content p {
     margin-bottom: 2rem;
-    color: #E6E6E6;
+    color: #666666;
 }
 
 header .image {
@@ -187,7 +187,7 @@ header .image::before {
     font-size: 38rem;
     font-weight: 400;
     line-height: 20rem;
-    color: #00D1FF;
+    color: #007BFF;
     opacity: 0.2;
     z-index: -100;
 }
@@ -199,7 +199,7 @@ header .image img {
 
 section .header {
     margin-bottom: 1rem;
-    color: #FFFFFF;
+    color: #333333;
     text-align: center;
     font-size: 2.25rem;
     font-weight: 600;
@@ -213,7 +213,7 @@ section .header {
 }
 
 .features .card {
-    background-color: #3B404A;
+    background-color: #E8ECEF;
     padding: 1rem;
     border: 2px solid transparent;
     border-radius: 15px;
@@ -221,13 +221,13 @@ section .header {
 }
 
 .features .card:hover {
-    background-color: #4A4F5A;
-    border-color: #FFFFFF;
+    background-color: #DDE2E5;
+    border-color: #333333;
 }
 
 .features .card span {
     display: inline-block;
-    background-color: #00A3CC;
+    background-color: #005BFF;
     padding: 2px 9px;
     margin-bottom: 1rem;
     font-size: 1.75rem;
@@ -237,30 +237,30 @@ section .header {
 
 .features .card h4 {
     margin-bottom: 0.5rem;
-    color: #FFFFFF;
+    color: #333333;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
 .features .card p {
-    color: #E6E6E6;
+    color: #666666;
     margin-bottom: 1rem;
 }
 
 .features .card a {
-    color: #FFFFFF;
+    color: #333333;
     transition: all 0.3s ease;
 }
 
 .features .card a:hover {
-    color: #00A3CC;
+    color: #005BFF;
 }
 
 .sub-header {
     max-width: 600px;
     margin: auto;
     text-align: center;
-    color: #E6E6E6;
+    color: #666666;
 }
 
 .works {
@@ -272,7 +272,7 @@ section .header {
 
 .works .card {
     padding: .8rem;
-    background-color: #3B404A;
+    background-color: #E8ECEF;
     display: flex;
     flex-direction: column;
     border: 1px solid transparent;
@@ -284,8 +284,8 @@ section .header {
 }
 
 .works .card:hover {
-    background-color: #4A4F5A;
-    border-color: #FFFFFF;
+    background-color: #DDE2E5;
+    border-color: #333333;
 }
 
 .card-image {
@@ -349,7 +349,7 @@ footer .column .logo {
 }
 
 footer .column p {
-    color: #E6E6E6;
+    color: #666666;
     margin-bottom: 2rem;
 }
 
@@ -360,8 +360,8 @@ footer .column .socials {
 }
 
 footer .column .socials a {
-    color: #E6E6E6;
-    border: 1px solid #E6E6E6;
+    color: #666666;
+    border: 1px solid #666666;
     padding: 5px 10px;
     font-size: 1.25rem;
     border-radius: 100%;
@@ -370,12 +370,12 @@ footer .column .socials a {
 
 footer .column .socials a:hover {
     color: #FFFFFF;
-    background-color: #00D1FF;
-    border-color: #00D1FF;
+    background-color: #007BFF;
+    border-color: #007BFF;
 }
 
 footer .column h4 {
-    color: #FFFFFF;
+    color: #333333;
     margin-bottom: 2rem;
     font-size: 1.2rem;
     font-weight: 500;
@@ -383,20 +383,20 @@ footer .column h4 {
 
 footer .column > a {
     display: block;
-    color: #E6E6E6;
+    color: #666666;
     margin-bottom: 1rem;
     transition: all 0.3s ease;
 }
 
 footer .column > a:hover {
-    color: #00D1FF;
+    color: #007BFF;
 }
 
 .copyright {
     max-width: 1200px;
     margin: auto;
     padding: 1rem;
-    color: #FFFFFF;
+    color: #333333;
     font-size: 0.8rem;
     text-align: center;
 }
@@ -427,7 +427,7 @@ footer .column > a:hover {
         display: none;
     }
     .features {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1 Frans-serif;
     }
     .pricing {
         grid-template-columns: repeat(1, 1fr);
@@ -451,8 +451,8 @@ footer .column > a:hover {
 }
 
 .form-input {
-    background: #3B404A;
-    color: #E6E6E6;
+    background: #E8ECEF;
+    color: #333333;
     padding: 15px;
     border-radius: 5px;
     width: 100%;
@@ -465,11 +465,11 @@ footer .column > a:hover {
 }
 
 .form-input:focus {
-    outline: 1px solid #FFFFFF;
+    outline: 1px solid #333333;
 }
 
 .form-label {
-    color: #FFFFFF;
+    color: #333333;
     font-size: 1.05rem;
 }
 
@@ -477,14 +477,14 @@ footer .column > a:hover {
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #FFFFFF;
-    background-color: #00D1FF;
+    background-color: #007BFF;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .form-submit:hover {
-    background-color: #00A3CC;
+    background-color: #005BFF;
 }
 
 .form-grid {
@@ -556,5 +556,5 @@ textarea.form-input {
 
 .heading {
     font-size: 32px;
-    color: #FFFFFF;
+    color: #333333;
 }
