@@ -131,7 +131,7 @@ header .content h1 div:last-child {
     animation: header-animate-next .7s steps(20) 1.4s forwards, typing-animate 1s steps(2) 1.4s forwards infinite;
     text-wrap: nowrap;
     overflow: hidden;
-    width: 0;
+    width: 0%;
     border-right: 0px solid transparent;
 }
 
@@ -320,8 +320,8 @@ section .header {
     font-size: 1.3rem;
     cursor: pointer;
     text-align: center;
-    bottom: 17px;  
-    left: 50%; 
+    bottom: 17px;
+    left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: all .3s ease;
@@ -427,7 +427,7 @@ footer .column > a:hover {
         display: none;
     }
     .features {
-        grid-template-columns: repeat(1, 1 Frans-serif;
+        grid-template-columns: repeat(1, 1fr);
     }
     .pricing {
         grid-template-columns: repeat(1, 1fr);
