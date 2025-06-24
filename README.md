@@ -1,4 +1,4 @@
-Hi, I'm victor, Web Developer 👋
-CRAFTING DIGITAL EXPERIENCES WITH CODE AND CREATIVITY
+Hi, I'm Victor, DevOps Engineer 👋
+DRIVING SEAMLESS DEPLOYMENTS AND ROBUST INFRASTRUCTURE WITH CODE AND INNOVATION
 
-I’m a dedicated web developer with expertise in WordPress, HTML, CSS, and JavaScript. I create dynamic, responsive websites that transform ideas into reality. My goal is to make the web more user-friendly with clear navigation and visually appealing designs. Take a look around my portfolio to see my work.
+I’m a passionate DevOps Engineer specializing in Kubernetes, AWS, Azure, Terraform, and CI/CD pipelines. I design and implement scalable, secure, and highly available cloud architectures that empower teams to deliver software faster and reliably. By leveraging automation, monitoring, and best-in-class DevOps practices, I ensure resilient systems and streamlined workflows. Check out my portfolio to explore my projects and impact.
